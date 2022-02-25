@@ -4,6 +4,8 @@
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/5f11f2d177.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,6 +15,8 @@
     <div class="allContent">
         <div>
             <header class="header">
+                <div class="myPicture">
+                </div>
                 <div class="name">
                     <h1>
                         João Fekete
@@ -20,18 +24,50 @@
                 </div>
                 <div class="headerList">        
                     <ul>
-                        <li>About me</li>
-                        <li>Project</li>
-                        <li>Contact</li>
+                        <a href="#aboutMe">About me</a>
+                        <a href="#education">Education</a>
+                        <a href="#workExperience">Work experience</a>
+                        <a href="#projects">Projects</a>
+                    </ul>
+                </div>
+                <div class="socialMedia">
+                    <ul>
+                        <a href="https://twitter.com/jgfekete" target="_blank" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/aojofekete/" target="_blank" class="fa fa-instagram"></a>
+                        <a href="https://github.com/joao-gabriel-fekete" target="_blank" class="fa fa-github"></a>
+                        <a href="https://www.linkedin.com/in/jo%C3%A3o-fekete-7076a814b/" target="_blank" class="fa fa-linkedin"></a>
                     </ul>
                 </div>
             </header>
         </div>
         <div class="pageContent">
             <div class="hero">
-                <h1>Title</h1>
+            </div>
+            <div>
+                <div id="aboutMe" class="aboutMe">
+                    <h2>About me 
+                        <i class="fa-solid fa-user"></i>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis elementum leo eu lacinia. Sed a accumsan massa. Cras eu tristique leo. Nam suscipit sagittis ullamcorper. Proin non dui at nibh maximus interdum nec cursus odio. Nunc sit amet leo arcu. Vestibulum congue pulvinar dolor vitae volutpat. Nulla egestas tincidunt aliquet. Integer laoreet gravida nisi sed efficitur. Sed ultricies sem ligula, a volutpat leo blandit eget.</p>
+                </div>
+                <div id="education" class="education">
+                    <h2>Education
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et blandit dolor, eget pellentesque augue. Nunc dolor justo, commodo ut dui a, consectetur pharetra leo. Morbi auctor euismod dolor eget pretium. Fusce eu metus turpis. Vivamus maximus justo at nulla pellentesque maximus. Phasellus faucibus orci lorem, faucibus scelerisque dolor consectetur sed. Morbi elit ante, congue vel turpis non, mollis pellentesque neque. Vestibulum ut ante eget urna interdum malesuada. Quisque ac turpis quis erat blandit faucibus in facilisis ipsum. Donec egestas magna magna, sed bibendum urna rhoncus a.</p>
+                </div>
+                <div id="workExperience" class="workExperience">
+                    <h2>Work Experience
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et rhoncus velit. Cras bibendum consectetur lorem, a rhoncus metus aliquam at. Nullam ac lacinia ligula, in feugiat sapien. Donec at consequat est. Aenean sit amet magna et risus sagittis maximus et et ipsum. Quisque lacinia ex id lectus sodales suscipit. Etiam risus urna, placerat eget erat a, scelerisque congue lacus. Vivamus nec blandit diam. Phasellus ultrices ex lacus, eget pharetra eros aliquet ac.</p>
+                </div>
+                <div id="projects" class="projects">
+                    <h2>Projects:</h2>
+                </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>
