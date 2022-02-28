@@ -58,6 +58,18 @@
     color: #0009;
 }
 
+.coffeeDiv{
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coffeeButton{
+    background-color: transparent;
+}
+
 .pageContent{
     width: 80%;
     float: right;
