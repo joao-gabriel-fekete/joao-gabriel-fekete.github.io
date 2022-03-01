@@ -71,6 +71,23 @@
                 </div>
                 <div id="projects" class="projects">
                     <h2>Projects:</h2>
+                    <div class="projectBox">
+                        <div class="filterProjects">
+                            <h5>Filter by programming language:</h5>
+                            <select onchange="filterProject()" name="projectsDropdown" id="projectsDropdown">
+                                <option value="all" selected>All</option>
+                                <option value="python">Python</option>
+                                <option value="front-end">Front-end</option>
+                                <option value="nlp">NLP</option>
+                            </select>
+                        </div>
+                        <div class="projectsList">
+                            <div id="front-end" class="project front-end show">This website</div>
+                            <div id="python" class="project python show">Hangman</div>
+                            <div id="nlp" class="project nlp show">XML</div>
+                            <div id="nlp" class="project nlp show">NLP</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
