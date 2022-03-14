@@ -68,6 +68,12 @@
 
 .coffeeButton{
     background-color: transparent;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.coffeeButton:hover{
+    background-color: #ffd386;
 }
 
 .pageContent{
@@ -113,7 +119,7 @@ h2{
 
 p{
     font-family: 'Courier New', Courier, monospace;
-    padding-left: 20px;
+    padding-left: 32px;
     padding-right: 20px;
 }
 
@@ -121,6 +127,17 @@ li{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     list-style-type: none;
+}
+
+.list{
+    padding-left: 0px;
+}
+.listElement{
+    padding-top: 10px;
+}
+
+.listElement p{
+    padding-left: 0px;
 }
 
 .filterProjects{
@@ -163,4 +180,14 @@ li{
 
 .hide{
     display: none;
+}
+
+.projectsList a{
+    color: black;
+    text-decoration: none;
+}
+
+.projectsList a:hover{
+    background-color: rgb(14, 179, 255);
+    text-decoration: none;
 }
